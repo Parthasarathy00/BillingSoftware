@@ -1,4 +1,3 @@
-############################################CREATED BY MUHAMMAD HANAN ASGHAR#################################
 from tkinter import *
 import random
 
@@ -331,22 +330,11 @@ class Bill_App:
             self.txt.insert(END,f"\nBiscuits          {self.biscuits.get()}           {self.biscuits.get() * 20}")
         self.txt.insert(END,"\n===================================")
         self.txt.insert(END,f"\n                      Total : {self.total_cosmetics_prices+self.total_grocery_prices+self.total_other_prices+self.total_cosmetics_prices * 0.05+self.total_grocery_prices * 0.05+self.total_other_prices * 0.05}")
-
-
     #Function to exit
     def exit(self):
         self.root.destroy()
 
     #Function To Clear All Fields
-
-
-        
-
-
 root = Tk()
 object = Bill_App(root)
 root.mainloop()
-
-
-
-############################################CREATED BY MUHAMMAD HANAN ASGHAR#################################
